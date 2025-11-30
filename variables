@@ -13,6 +13,6 @@ PADAVAN_THEMES=(
   blue2
   grey
   grey2
-#  white
-#  yellow
+  white
+  yellow
 )
