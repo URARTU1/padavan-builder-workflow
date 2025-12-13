@@ -8,8 +8,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-                                sudo apt -y install autoconf automake bison build-essential flex gawk gettext gperf libtool 
+    runs-on: ubuntu-25.04
+                                
     container: registry.gitlab.com/hadzhioglu/padavan-ng
     defaults: { run: { shell: bash } }
     steps:
